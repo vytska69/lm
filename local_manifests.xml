@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="hsx02"
+   <remote  name="hsx02"
            fetch="https://github.com/hsx02" />
            
    <remote  name="xiaomi-sdm439-devs"
            fetch="https://github.com/xiaomi-sdm439-devs" />          
 
-<remote  name="Chuck439"
+   <remote  name="Chuck439"
            fetch="https://github.com/Chuck439" />          
+
+   <remote  name="ArrowOS"
+           fetch="https://github.com/ArrowOS" />          
 
  <!-- Replacements -->
   <remove-project name="android_hardware_qcom_display"/>
@@ -27,6 +30,9 @@
 
   <remove-project name="android_vendor_arrow"/>
   <project path="vendor/arrow"  name="android_vendor_arrow"  remote="Chuck439"  revision="arrow-12.0"/>
+
+  <remove-project name="android_hardware_arrow_interfaces"/>
+  <project path="hardware/arrow/interfaces"  name="android_hardware_arrow_interfaces"  remote="ArrowOS"  revision="arrow-12.0"/>
 
  <!-- Kernels -->
   <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="xiaomi-sdm439-devs" revision="a11/main-kud-rb"  clone-depth="1"/>
