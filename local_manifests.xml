@@ -7,7 +7,7 @@
    <remote  name="xiaomi-sdm439-devs"
            fetch="https://github.com/xiaomi-sdm439-devs" />          
 
-<remote  name="xiaomi-Chuck439"
+<remote  name="Chuck439"
            fetch="https://github.com/Chuck439" />          
 
  <!-- Replacements -->
