@@ -11,7 +11,10 @@
            fetch="https://github.com/Chuck439" />          
 
    <remote  name="ArrowOS"
-           fetch="https://github.com/ArrowOS" />          
+           fetch="https://github.com/ArrowOS" />
+
+   <remote  name="ss18"
+           fetch="https://github.com/SonalSingh18" />    
 
  <!-- Replacements -->
   <remove-project name="android_hardware_qcom_display"/>
@@ -30,6 +33,9 @@
 
   <remove-project name="android_vendor_arrow"/>
   <project path="vendor/arrow"  name="android_vendor_arrow"  remote="Chuck439"  revision="arrow-12.0"/>
+
+  <remove-project name="android_frameworks_base"/>
+  <project path="frameworks/base"  name="android_frameworks_base-1"  remote="ss18"  revision="arrow-12.0"/>
 
   <project path="hardware/arrow/interfaces"  name="android_hardware_arrow_interfaces"  remote="ArrowOS"  revision="arrow-12.0"/>
 
