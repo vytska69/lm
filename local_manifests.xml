@@ -14,7 +14,10 @@
            fetch="https://github.com/ArrowOS" />
 
    <remote  name="ss18"
-           fetch="https://github.com/SonalSingh18" />    
+           fetch="https://github.com/SonalSingh18" />
+
+   <remote  name="dirac"
+           fetch="https://github.com/xiaomi-sdm660" />    
 
  <!-- Replacements -->
   <remove-project name="android_hardware_qcom_display"/>
@@ -49,5 +52,6 @@
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/pine"  name="vendor_pine-s" remote="hsx02" revision="12.0"/>
   <project path="vendor/xiaomi/sdm439-common"  name="v_common_sdm439-s" remote="hsx02" revision="12.0"/>
-  	
+  <project path="vendor/xiaomi/dirac"  name="vendor_xiaomi_dirac" remote="dirac" revision="11"/>
+ 	
   </manifest>
