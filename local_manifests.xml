@@ -4,10 +4,6 @@
    <remote  name="hsx02"
            fetch="https://github.com/hsx02" />       
 
- <!-- Replacement -->
-  <remove-project name="platform_packages_apps_FMRadio"/>
-  <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" remote="hsx02" revision="lineage-18.1"/>
-
  <!-- Device Settings -->
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx02" revision="lineage-18.1"/>
 
