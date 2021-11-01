@@ -13,7 +13,7 @@
 
  <!-- Device Trees -->
   <project path="device/xiaomi/pine" name="device_xiaomi_pine-x" remote="hsx02" revision="Aex-S"/>
-  <project path="device/xiaomi/sdm439-common" name="device_xiaomi_sdm439-common" remote="hsx02" revision="S"/>
+  <project path="device/xiaomi/sdm439-common" name="res." remote="hsx02" revision="DCT"/>
   
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/pine"  name="vendor_xiaomi_pine" remote="hsx02" revision="S"/>
