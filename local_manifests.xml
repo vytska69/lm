@@ -12,7 +12,7 @@
   <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="hsx02" revision="S"  clone-depth="1"/>
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/pine" name="res" remote="hsx02" revision="DT"/>
+  <project path="device/xiaomi/pine" name="Exp." remote="hsx02" revision="aex"/>
   <project path="device/xiaomi/sdm439-common" name="Exp." remote="hsx02" revision="dct"/>
   
  <!-- Vendor Trees -->
