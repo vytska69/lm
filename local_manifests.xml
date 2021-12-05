@@ -11,6 +11,9 @@
   <remove-project name="packages_apps_FMRadio"/>
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx02" revision="lineage-18.1"/>
 
+  <remove-project name="hardware_qcom-caf_msm8996_display"/>
+  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_display" remote="hsx02" revision="Aex-S"/>
+
   <remove-project name="hardware_qcom-caf_wlan"/>
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hsx02" revision="S"/>
 
