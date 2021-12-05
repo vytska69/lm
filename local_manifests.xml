@@ -16,7 +16,8 @@
   <remove-project name="android_hardware_qcom_wlan"/>
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hsx02" revision="S"/>
    
-<remove-project name="android_frameworks_base"/> <project path="frameworks/base" name="cherish_frameworks_base" remote="hsx02" revision="twelve"/>
+<remove-project name="android_frameworks_base"/> 
+   <project path="frameworks/base" name="cherish_frameworks_base" remote="hsx02" revision="twelve"/>
    
    
  <!-- Kernels -->
