@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+   <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
    <remote  name="hsx02"
@@ -15,7 +15,10 @@
 
   <remove-project name="android_hardware_qcom_wlan"/>
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hsx02" revision="S"/>
-
+   
+<remove-project name="android_frameworks_base"/> <project path="frameworks/base" name="cherish_frameworks_base" remote="hsx02" revision="twelve"/>
+   
+   
  <!-- Kernels -->
   <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="hsx02" revision="r11.0"  clone-depth="1"/>
 
