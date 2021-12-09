@@ -11,10 +11,9 @@
            fetch="https://github.com/vytska69" />
 
 <!-- Replacement -->
-
+<remove-project name="packages_apps_FMRadio"/>
 <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx02" revision="lineage-18.1"/>
-
-<remove-project name="android_hardware_qcom_wlan"/>
+<remove-project name="packages_apps_re_qcom_wlan"/>
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hsx02" revision="S"/>
            <remove-project name="LineageOS/android_hardware_qcom_display" />
             <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="Chuck" revision="8.6.2"/>
