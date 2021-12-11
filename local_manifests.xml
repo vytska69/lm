@@ -29,7 +29,7 @@
 <project path="frameworks/base" name="cherish_frameworks_base" remote="hsx02" revision="twelve"/> 
 
 <!-- Kernels -->
-  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="hsx02" revision="r11.0"  clone-depth="1"/>
+  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="hsx02" revision="12.0"  clone-depth="1"/>
 
 <!-- Device Trees -->
  <project path="device/xiaomi/pine" name="android_device_xiaomi_pine" remote="vy" revision="cherish"/>
