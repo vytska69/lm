@@ -11,7 +11,6 @@
            fetch="https://github.com/vytska69" />
 
 <!-- Replacement -->
-<project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx02" revision="lineage-18.1"/>
 <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx02" revision="lineage-18.1"/>
 
 <remove-project name="hardware_qcom-caf_wlan"/>
