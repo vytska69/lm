@@ -13,6 +13,8 @@
 <!-- Replacement -->
 <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx02" revision="lineage-18.1"/>
 
+           <remove-project name="vendor_evolution" />
+  <project path="vendor/evolution" name="vendor_evolution" remote="vy" revision="snow" />
 <remove-project name="hardware_qcom-caf_wlan"/>
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hsx02" revision="S"/>
             <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="Chuck" revision="8.6.2"/>
