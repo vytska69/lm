@@ -13,27 +13,11 @@
 <remote  name="vy"
            fetch="https://github.com/vytska69" />
 
-<<<<<<< HEAD
 <!-- Replacement -->
 <remove-project name="packages_resources_devicesettings"/>
 <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx02" revision="lineage-18.1"/>
 <remove-project name="packages_apps_FMRadio" />
 <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx02" revision="lineage-18.1"/>
-=======
-   <remote  name="pxl"
-           fetch="https://github.com/PixelExperience" />   
-
- <!-- Replacement -->
-  <remove-project name="packages_resources_devicesettings"/>
-  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx02" revision="lineage-18.1"/>
-  <remove-project name="packages_apps_FMRadio"/>
-  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx02" revision="lineage-18.1"/>
-  <remove-project name="hardware_qcom-caf_wlan"/>
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hsx02" revision="S"/>
-  <remove-project name="hardware_qcom-caf_msm8996_display"/>
-  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_display" remote="hsx02" revision="Aex-S"/>
-  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pxl" revision="twelve"/>
->>>>>>> 237d8d4... Track external_ant-wireless_antradio-library Repository
 
 <remove-project name="hardware_qcom-caf_wlan"/>
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hsx02" revision="S"/>
