@@ -38,11 +38,11 @@
   <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="hsx02" revision="12.0"  clone-depth="1"/>
 
 <!-- Device Trees -->
- <project path="device/xiaomi/pine" name="android_device_xiaomi_pine" remote="vy" revision="S"/>
+ <project path="device/xiaomi/olives" name="android_device_xiaomi_olives" remote="vy" revision="S"/>
   <project path="device/xiaomi/sdm439-common" name="wip" remote="hsx02" revision="dct"/>
   
 <!-- Vendor Trees -->
-<project path="vendor/xiaomi/pine"  name="vendor_xiaomi_pine" remote="hsx02" revision="12.0"/>
+<project path="vendor/xiaomi/olives"  name="vendor_xiaomi_olives" remote="Chuck" revision="12.0"/>
   <project path="vendor/xiaomi/sdm439-common"  name="vendor_xiaomi_sdm439-common" remote="hsx02" revision="12.0"/>
 
 </manifest>
