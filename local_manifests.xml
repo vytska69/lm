@@ -14,8 +14,8 @@
                    fetch="https://github.com/mi-msm8937" />
            
            
-           <remote name="akira"
-                   fetch="https://github.com/AkiraNoSushi" />
+           <remote name="kt"
+                   fetch="https://github.com/xiaomi-sdm439-devs" />
            
 <remote  name="vy"
            fetch="https://github.com/vytska69" />
@@ -39,7 +39,7 @@
   <project path="frameworks/base" name="pe_frameworks_base" remote="vy" revision="twelve"/>
            
 <!-- Kernels -->
-  <project path="kernel/xiaomi/sdm439" name="kernel_cherry_sdm439" remote="akira" revision="cherry/master"  clone-depth="1"/>
+  <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="kt" revision="a11/lineageos"  clone-depth="1"/>
 
 <!-- Device Trees -->
  <project path="device/xiaomi/pine" name="android_device_xiaomi_pine" remote="vy" revision="S"/>
