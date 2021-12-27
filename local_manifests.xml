@@ -14,8 +14,6 @@
         fetch="https://github.com/mi-msm8937" />
            
 <!-- Replacement -->
-<remove-project name="crdroidandroid/android_packages_resources_devicesettings"/>
-<project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx02" revision="lineage-18.1"/>
 <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx02" revision="lineage-18.1"/>
 
 <remove-project name="LineageOS/android_hardware_qcom_wlan"/>
