@@ -17,7 +17,7 @@
         fetch="https://github.com/mi-msm8937" />
            
 <!-- Replacement -->
-           <remove-project name="android_device_qcom_sepolicy-legacy-um"/>
+           <remove-project name="LineageOS/android_device_qcom_sepolicy"/>
            <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="hsx02" revision="twelve" />
 <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx02" revision="lineage-18.1"/>
 
