@@ -19,11 +19,8 @@
 <!-- Replacement -->
            <remove-project name="LineageOS/android_packages_resources_devicesettings" />
            <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx02" revision="lineage-18.1" />
-           <remove-project name="crdroidandroid/android_device_crdroid_sepolicy" />
-             <project path="device/lineage/sepolicy" name="android_device_crdroid_sepolicy" remote="vy" revision="12.0"/>
            <remove-project name="LineageOS/android_device_qcom_sepolicy"/>
            <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="hsx02" revision="twelve" />
-<project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx02" revision="lineage-18.1" />
 <remove-project name="LineageOS/android_hardware_qcom_wlan"/>
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hsx02" revision="S"/>
            <remove-project name="LineageOS/android_hardware_qcom_display" />
