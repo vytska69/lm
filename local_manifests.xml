@@ -22,7 +22,7 @@
            <remove-project name="android_device_qcom_sepolicy-legacy-um"/>
            <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="hsx02" revision="twelve" />
 <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx02" revision="lineage-18.1" />
-<remove-project name="android_hardware_qcom_wlan"/>
+<remove-project name="android_hardware_qcom-caf_wlan"/>
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hsx02" revision="S"/>
            <remove-project name="android_hardware_qcom_display" />
             <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="mi" revision="twelve"/>
