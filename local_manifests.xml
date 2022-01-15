@@ -36,7 +36,7 @@
  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" remote="Chuck" revision="8.6.2" />
            
 <!-- Kernels -->
-  <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="hsx" revision="a12/main"  clone-depth="1"/>
+  <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="hsx02" revision="a12/main"  clone-depth="1"/>
 
 <!-- Device Trees -->
  <project path="device/xiaomi/pine" name="android_device_xiaomi_pine" remote="vy" revision="S"/>
