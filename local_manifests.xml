@@ -20,7 +20,7 @@
            fetch="https://github.com/dlwlrma123" />
            
            <remote name="kt"
-                   fetch="https://github.com/mi-439" />
+                   fetch="https://github.com/mi-sdm439" />
            
 <!-- Replacement -->
            <remove-project name="android_packages_resources_devicesettings" />
