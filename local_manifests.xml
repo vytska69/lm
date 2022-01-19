@@ -10,8 +10,6 @@
               <remote  name="pxl"
            fetch="https://github.com/PixelExperience" />   
            
-           <remote name="mi"
-                   fetch="https://github.com/mi-msm8937" />
            
            
            <remote name="kt"
@@ -20,6 +18,9 @@
 <remote  name="vy"
            fetch="https://github.com/vytska69" />
 
+           <remote name="mi"
+                   fetch="https://github.com/mi-msm8937" />
+           
 <!-- Replacement -->
 <remove-project name="packages_resources_devicesettings"/>
 <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx02" revision="lineage-18.1"/>
@@ -35,15 +36,13 @@
            <remove-project name="hardware_qcom-caf_msm8996_media" />
  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" remote="Chuck" revision="8.6.2" />
     <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pxl" revision="twelve"/>
-                       <remove-project name="frameworks_base"/>
-  <project path="frameworks/base" name="pe_frameworks_base" remote="vy" revision="twelve"/>
            
 <!-- Kernels -->
   <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="kt" revision="a11/lineageos"  clone-depth="1"/>
 
 <!-- Device Trees -->
  <project path="device/xiaomi/pine" name="android_device_xiaomi_pine" remote="vy" revision="S"/>
-  <project path="device/xiaomi/sdm439-common" name="device_xiaomi_sdm439-common" remote="vy" revision="12.0"/>
+  <project path="device/xiaomi/sdm439-common" name="android_device_xiaomi_sdm439-common" remote="vy" revision="S"/>
   
 <!-- Vendor Trees -->
 <project path="vendor/xiaomi/pine"  name="vendor_xiaomi_pine" remote="hsx02" revision="12.0"/>
