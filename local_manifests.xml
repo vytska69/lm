@@ -20,6 +20,9 @@
 <remote  name="vy"
            fetch="https://github.com/vytska69" />
 
+<remote name="fl"
+         fetch="https://github.com/flashokillerify" />
+
 <!-- Replacement -->
 <remove-project name="packages_resources_devicesettings"/>
 <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx02" revision="lineage-18.1"/>
@@ -34,7 +37,9 @@
             <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" remote="Chuck" revision="8.6.2" />
            <remove-project name="hardware_qcom-caf_msm8996_media" />
  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" remote="Chuck" revision="8.6.2" />
-           
+ <remove-project name="frameworks_base"/> 
+ <project path="frameworks/base" name="elixir_frameworks_base" remote="fl" revision="snow"/> 
+          
 <!-- Kernels -->
   <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="hsx02" revision="a12/main"  clone-depth="1"/>
 
