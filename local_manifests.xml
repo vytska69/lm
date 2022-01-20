@@ -19,7 +19,7 @@
            
            
            <remote name="kt"
-                   fetch="https://github.com/mi-439" />
+                   fetch="https://github.com/mi-sdm439" />
            
 <!-- Replacement -->
            <remove-project name="LineageOS/android_packages_resources_devicesettings" />
