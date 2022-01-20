@@ -9,6 +9,9 @@
 
             <remote name="Chuck"
          fetch="https://github.com/ChuckProjekt" />
+
+           <remote name="mi"
+                   fetch="https://github.com/mi-msm8937" />
            
 <remote  name="vy"
            fetch="https://github.com/vytska69" />
