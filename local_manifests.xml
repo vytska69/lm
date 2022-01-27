@@ -1,49 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote  name="hsx02"
-           fetch="https://github.com/hsx02" />   
+<remote  name="exy"
+           fetch="https://github.com/samsungexynos7870" />   
            
- <remote name="Chuck"
-         fetch="https://github.com/ChuckProjekt" />
            
 <remote  name="vy"
            fetch="https://github.com/vytska69" />
            
-<remote name="mi"
-        fetch="https://github.com/mi-msm8937" />
-           
-                         <remote  name="pxl"
-           fetch="https://github.com/PixelExperience" />   
-           
-                      <remote name="kt"
-                   fetch="https://github.com/mi-sdm439" />
            
 <!-- Replacement -->
-<remove-project name="LineageOS/android_packages_resources_devicesettings"/>
-<project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx02" revision="lineage-18.1"/>
+<remove-project name="LineageOS/android_hardware_samsung"/>
+<project path="hardware/samsung" name="android_hardware_samsung_slsi_exynos7870" remote="exy" revision="lineage-17.1"/>
 
-<project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx02" revision="lineage-18.1"/>
-
-<remove-project name="android_hardware_qcom_wlan"/>
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hsx02" revision="S"/>
-           <remove-project name="hardware_qcom-caf_msm8996_display" />
-            <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="mi" revision="twelve"/>
-           <remove-project name="hardware_qcom-caf_msm8996_audio" />
-            <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" remote="Chuck" revision="8.6.2" />
-           <remove-project name="hardware_qcom-caf_msm8996_media" />
- <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" remote="Chuck" revision="8.6.2" />
-                          
 
 <!-- Kernels -->
-  <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="kt" revision="a12/main"  clone-depth="1"/>
+  <project path="kernel/samsung/exynos7870" name="android_kernel_samsung_exynos7870" remote="exy" revision="master"  clone-depth="1"/>
 
 <!-- Device Trees -->
- <project path="device/xiaomi/pine" name="android_device_xiaomi_pine" remote="vy" revision="cherish"/>
-  <project path="device/xiaomi/sdm439-common" name="android_device_xiaomi_sdm439-common" remote="vy" revision="S"/>
+ <project path="device/samsung/j5y17lte" name="android_device_samsung_j5y17lte" remote="vy" revision="los"/>
+  <project path="device/samsung/universal7870-common" name="android_device_samsung_universal7870-common" remote="exy" revision="aex"/>
   
 <!-- Vendor Trees -->
-<project path="vendor/xiaomi/pine"  name="vendor_xiaomi_pine" remote="hsx02" revision="12.0"/>
-  <project path="vendor/xiaomi/sdm439-common"  name="vendor_xiaomi_sdm439-common" remote="hsx02" revision="12.0"/>
+<project path="vendor/samsung/j5y17lte"  name="android_vendor_samsung_j5y17lte" remote="exy" revision="common"/>
+  <project path="vendor/samsung/universal7870-common"  name="android_vendor_samsung_universal7870-common" remote="exy" revision="common"/>
 
 </manifest>
