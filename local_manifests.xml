@@ -10,7 +10,7 @@
            
            
 <!-- Replacement -->
-<project path="hardware/samsung" name="android_hardware_samsung_slsi_exynos7870" remote="exy" revision="lineage-17.1"/>
+<project path="hardware/samsung" name="android_hardware_samsung" remote="exy" revision="lineage-17.1"/>
 
 
 <!-- Kernels -->
