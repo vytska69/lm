@@ -10,7 +10,6 @@
            
            
 <!-- Replacement -->
-<remove-project name="android_hardware_samsung"/>
 <project path="hardware/samsung" name="android_hardware_samsung_slsi_exynos7870" remote="exy" revision="lineage-17.1"/>
 
 
