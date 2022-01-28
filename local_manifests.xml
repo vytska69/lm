@@ -14,7 +14,7 @@
 
 
 <!-- Kernels -->
-  <project path="kernel/samsung/exynos7870" name="android_kernel_samsung_exynos7870" remote="exy" revision="master"  clone-depth="1"/>
+  <project path="kernel/samsung/universal7870" name="android_kernel_samsung_exynos7870" remote="exy" revision="master"  clone-depth="1"/>
 
 <!-- Device Trees -->
  <project path="device/samsung/j5y17lte" name="android_device_samsung_j5y17lte" remote="vy" revision="los"/>
