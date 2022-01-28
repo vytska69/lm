@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--
+    * target: j5y17lte
+    * rom: LineageOS
+    -->
+
+    <!-- Remote -->
+    <remote fetch="https://github.com/samsungexynos7870" name="j5y17lte" />
+    <remote fetch="https://github.com/vytska69" name="vy" />
+
+	
+    <!-- Device -->
+    <project name="android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="vy" revision="los" />
+    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="j5y17lte" revision="potato" />
+
+    <!-- Kernel -->
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="j5y17lte" revision="master" />
+
+    <!-- Vendor -->
+    <project name="android_vendor_samsung_j5y17lte" path="vendor/samsung/j5y17lte" remote="j5y17lte" revision="common" />
+    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="j5y17lte" revision="common" />
+
+    <!-- Hardware -->   
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="j5y17lte" revision="lineage-17.1" />
+		
+</manifest>
