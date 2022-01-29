@@ -15,7 +15,7 @@
     <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="j5y17lte" revision="potato" />
 
     <!-- Kernel -->
-    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="j5y17lte" revision="master" />
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="j5y17lte" revision="aosp" />
 
     <!-- Vendor -->
     <project name="android_vendor_samsung_j5y17lte" path="vendor/samsung/j5y17lte" remote="j5y17lte" revision="common" />
