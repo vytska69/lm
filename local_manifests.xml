@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote  name="69o2"
+           fetch="https://github.com/nohaxrobot" />   
+
 <remote  name="hsx02"
            fetch="https://github.com/hsx02" />   
            
@@ -44,7 +47,7 @@
   <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="hsx02" revision="a12/main"  clone-depth="1"/>
 
 <!-- Device Trees -->
- <project path="device/xiaomi/pine" name="android_device_xiaomi_pine" remote="vy" revision="S"/>
+ <project path="device/xiaomi/pine" name="android_device_xiaomi_pine" remote="69o2" revision="S"/>
   <project path="device/xiaomi/sdm439-common" name="device_xiaomi_sdm439-common" remote="vy" revision="12.0"/>
   
 <!-- Vendor Trees -->
