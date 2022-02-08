@@ -38,11 +38,11 @@
     <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pxl" revision="twelve"/>
            
 <!-- Kernels -->
-  <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="kt" revision="a11/lineageos"  clone-depth="1"/>
+  <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="kt" revision="a12/main"  clone-depth="1"/>
 
 <!-- Device Trees -->
  <project path="device/xiaomi/mi439" name="android_device_xiaomi_mi439" remote="vy" revision="pixel"/>
-  <project path="device/xiaomi/sdm439-common" name="device_xiaomi_sdm439-common" remote="Chuck" revision="12.0-new"/>
+  <project path="device/xiaomi/sdm439-common" name="device_xiaomi_sdm439-common" remote="vy" revision="12.0-new"/>
   
 <!-- Vendor Trees -->
 <project path="vendor/xiaomi/mi439"  name="vendor_xiaomi_mi439" remote="Chuck" revision="12.0"/>
