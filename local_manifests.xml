@@ -13,7 +13,7 @@
            
            
            <remote name="kt"
-                   fetch="https://github.com/xiaomi-sdm439-devs" />
+                   fetch="https://github.com/mi-sdm439" />
            
 <remote  name="vy"
            fetch="https://github.com/vytska69" />
