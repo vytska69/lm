@@ -10,7 +10,8 @@
               <remote  name="pxl"
            fetch="https://github.com/PixelExperience" />   
            
-           
+<remote name="dt"
+        fetch="https://github.com/nusantararom-devices" />
            
            <remote name="kt"
                    fetch="https://github.com/mi-sdm439" />
@@ -42,10 +43,10 @@
 
 <!-- Device Trees -->
  <project path="device/xiaomi/mi439" name="android_device_xiaomi_mi439" remote="vy" revision="pixel"/>
-  <project path="device/xiaomi/sdm439-common" name="device_xiaomi_sdm439-common" remote="vy" revision="12.0-pixel"/>
+  <project path="device/xiaomi/sdm439-common" name="device_xiaomi_sdm439-common" remote="dt" revision="12"/>
   
 <!-- Vendor Trees -->
-<project path="vendor/xiaomi/mi439"  name="vendor_xiaomi_mi439" remote="Chuck" revision="12.0"/>
-  <project path="vendor/xiaomi/sdm439-common"  name="vendor_xiaomi_sdm439-common" remote="Chuck" revision="12.0-new"/>
+<project path="vendor/xiaomi/mi439"  name="vendor_xiaomi_mi439" remote="dt" revision="12.0"/>
+  <project path="vendor/xiaomi/sdm439-common"  name="vendor_xiaomi_sdm439-common" remote="dt" revision="12.0"/>
 
 </manifest>
