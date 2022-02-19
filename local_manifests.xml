@@ -47,6 +47,6 @@
   
 <!-- Vendor Trees -->
 <project path="vendor/xiaomi/mi439"  name="vendor_xiaomi_mi439" remote="dt" revision="12.0"/>
-  <project path="vendor/xiaomi/sdm439-common"  name="vendor_xiaomi_sdm439-common" remote="dt" revision="12.0"/>
+  <project path="vendor/xiaomi/sdm439-common"  name="vendor_xiaomi_sdm439-common" remote="dt" revision="12"/>
 
 </manifest>
