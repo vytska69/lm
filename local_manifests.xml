@@ -40,7 +40,7 @@
 
 <!-- Device Trees -->
  <project path="device/xiaomi/mi439" name="device_xiaomi_mi439" remote="vy" revision="weeb"/>
-  <project path="device/xiaomi/sdm439-common" name="android_dt" remote="vy" revision="12"/>
+  <project path="device/xiaomi/sdm439-common" name="dt" remote="vy" revision="12"/>
   
 <!-- Vendor Trees -->
 <project path="vendor/xiaomi/mi439"  name="vendor_xiaomi_mi439" remote="dct" revision="12"/>
