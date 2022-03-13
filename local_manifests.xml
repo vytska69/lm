@@ -26,6 +26,6 @@
   
 <!-- Vendor Trees -->
 <project path="vendor/xiaomi/mi8937"  name="proprietary_vendor_xiaomi_mi8937" remote="mi" revision="lineage-18.1"/>
-  <project path="vendor/xiaomi/msm8937-common"  name="proprietary_vendor_xiaomi_nsm8937-common" remote="mi" revision="lineage-19.0"/>
+  <project path="vendor/xiaomi/msm8937-common"  name="proprietary_vendor_xiaomi_msm8937-common" remote="mi" revision="lineage-19.0"/>
 
 </manifest>
