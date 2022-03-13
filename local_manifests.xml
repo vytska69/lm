@@ -23,8 +23,6 @@
            <remove-project name="LineageOS/android_packages_resources_devicesettings" />
            <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx02" revision="lineage-18.1" />
 <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx02" revision="lineage-18.1" />
-           <remove-project name="LineageOS/android_hardware_qcom_wlan" />
-  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="Chuck" revision="12.0"/>
            <remove-project name="LineageOS/android_hardware_qcom_display" />
             <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="Chuck" revision="8.6.2"/>
            <remove-project name="LineageOS/android_hardware_qcom_audio" />
