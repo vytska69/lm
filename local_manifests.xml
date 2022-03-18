@@ -4,8 +4,15 @@
            <remote name="dt"
                    fetch="https://github.com/crdroidandroid" />
            
+           <remote name="dt2"
+                   fetch="https://github.com/randomas3000" />
+           
 <remote  name="vy"
            fetch="https://github.com/vytska69" />
+           
+           <remote name="gapps"
+                   fetch="https://gitlab.com/crdroidandroid" />
+           
            
                       <remote name="dct"
                    fetch="https://github.com/mi-sdm439" />
@@ -24,11 +31,12 @@
   <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="dct" revision="a11/lineageos"  clone-depth="1"/>
 
 <!-- Device Trees -->
- <project path="device/xiaomi/pine" name="android_device_xiaomi_pine" remote="vy" revision="11.0"/>
+ <project path="device/xiaomi/pine" name="android_device_xiaomi_pine" remote="dt2" revision="lineage-18.1"/>
   <project path="device/xiaomi/sdm439-common" name="android_device_xiaomi_sdm439-common" remote="dct" revision="lineage-18.1"/>
   
 <!-- Vendor Trees -->
 <project path="vendor/xiaomi/pine"  name="proprietary_vendor_xiaomi_pine" remote="dct" revision="lineage-18.1" />
   <project path="vendor/xiaomi/sdm439-common"  name="proprietary_vendor_xiaomi_sdm439-common" remote="dct" revision="lineage-18.1" />
+           < project patch="vendor/gapps" name "android_vendor_gapps" remote="gapps" revision="11.0" />
 
 </manifest>
