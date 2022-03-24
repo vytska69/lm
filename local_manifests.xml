@@ -12,7 +12,7 @@
 	
     <!-- Device -->
     <project name="android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="vy" revision="los" />
-    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="j5y17lte" revision="potato" />
+    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="j5y17lte" revision="crdroid-7" />
 
     <!-- Kernel -->
     <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="j5y17lte" revision="aosp" />
