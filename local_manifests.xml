@@ -19,7 +19,7 @@
 
     <!-- Vendor -->
     <project name="android_vendor_samsung_j5y17lte" path="vendor/samsung/j5y17lte" remote="j5y17lte" revision="common" />
-    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="j5y17lte" revision="common" />
+    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="j5y17lte" revision="11" />
 
     <!-- Hardware -->   
     <project name="android_hardware_samsung" path="hardware/samsung" remote="j5y17lte" revision="lineage-17.1" />
