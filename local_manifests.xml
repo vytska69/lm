@@ -2,37 +2,20 @@
 <manifest>
 
     <!-- Remotes -->
-    <remote name="lineage"
-            fetch="https://github.com/lineageos" />
     
     <remote name="randomas" fetch="https://github.com/randomas3000" />   
-<remote name="fm"    
-        fetch="https://github.com/arrowos" />
     <remote name="camera"
             fetch="https://github.com/arrowos-devices" />
-    <remote name="mi"
-            fetch="https://github.com/mi-msm8937" />
     <!-- Device Trees -->
-    <project path="device/xiaomi/mi439" name="android_device_xiaomi_mi439" remote="randomas" revision="12.1" />
-    <project path="device/xiaomi/sdm439-common" name="android_device_xiaomi_sdm439-common" remote="randomas" revision="12.1" />
+    <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="randomas" revision="12.1" />
+    <project path="device/xiaomi/sm8150-common" name="android_device_xiaomi_sm8150-common" remote="randomas" revision="12.1" />
  
     <!-- Kernels -->
-    <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="randomas" revision="a12/main"  clone-depth="1" />
+    <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" remote="randomas" revision="r2"  clone-depth="1" />
            
     <!-- Vendor Trees -->
-    <project path="vendor/xiaomi/mi439"  name="proprietary_vendor_xiaomi_mi439" remote="randomas" revision="12.1" clone-depth="1" />
-    <project path="vendor/xiaomi/sdm439-common"  name="proprietary_vendor_xiaomi_sdm439-common" remote="randomas" revision="12.1" clone-depth="1" />
+    <project path="vendor/xiaomi"  name="proprietary_vendor_xiaomi" remote="randomas" revision="12.1" clone-depth="1" />
            
     <!-- Replacement -->
-    <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="randomas" revision="lineage-18.1" />
-    <remove-project name="crdroidandroid/android_hardware_qcom_wlan"/>
-    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="randomas" revision="lineage-19.1-caf"/>
-    <remove-project name="LineageOS/android_hardware_qcom_audio" />
-    <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="randomas" revision="lineage-18.1-caf-msm8996" />
 <project path="vendor/miuicamera" name="android_vendor_miuicamera" remote="camera" revision="arrow-12.0-a3" />    
-  <project path="vendor/qcom/opensource/libfmjni"  name="android_vendor_qcom_opensource_libfmjni" remote="fm" revision="arrow-12.1" /> 
-<remove-project name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.1-caf-msm8996" />    
-    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="mi" revision="twelve" />
-    <remove-project name="crdroidandroid/android_vendor_crdroid" />
-    <project path="vendor/lineage" name="android_vendor_crdroid" remote="randomas" revision="12.1" />
 </manifest>
