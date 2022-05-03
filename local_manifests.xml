@@ -27,10 +27,7 @@
          fetch="https://github.com/flashokillerify" />
 
 <!-- Replacement -->
-<remove-project name="packages_resources_devicesettings"/>
-<project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx02" revision="lineage-18.1"/>
-<remove-project name="packages_apps_FMRadio" />
-<project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx02" revision="lineage-18.1"/>
+
 
 <remove-project name="hardware_qcom-caf_wlan"/>
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hsx02" revision="S"/>
