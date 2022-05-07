@@ -14,5 +14,5 @@
            
     <!-- Vendor Trees -->
     <project path="vendor/xiaomi"  name="proprietary_vendor_xiaomi" remote="randomas" revision="12.1" clone-depth="1" />
-           
+     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="randomas" revision="lineage-19.1" />      
 </manifest>
