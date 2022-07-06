@@ -4,8 +4,8 @@
     <!-- Remotes -->
     
     <remote name="randomas" fetch="https://github.com/randomas3000" />   
-    <remote name="los" 
-            fetch="https://github.com/LineageOS" />
+    <remote name="arrow" 
+            fetch="https://github.com/arrowos" />
     
     <!-- Device Trees -->
     <project path="device/xiaomi/vayu" name="dot_device_xiaomi_vayu" remote="randomas" revision="cherish" />
@@ -15,4 +15,5 @@
            
     <!-- Vendor Trees -->
     <project path="vendor/xiaomi/vayu"  name="dot_vendor_xiaomi_vayu" remote="randomas" revision="vayu_qtibt" clone-depth="1" />
+    <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="arrow" revision="arrow-12.1" />
 </manifest>
