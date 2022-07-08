@@ -15,5 +15,5 @@
            
     <!-- Vendor Trees -->
     <project path="vendor/xiaomi/vayu"  name="dot_vendor_xiaomi_vayu" remote="randomas" revision="vayu_qtibt" clone-depth="1" />
-    <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="lawnchair" revision="arrow-12.1" />
+    <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="randomas" revision="arrow-12.1" />
 </manifest>
