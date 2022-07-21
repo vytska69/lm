@@ -8,6 +8,9 @@
            <remote name="kt"
                    fetch="https://github.com/mi-sdm439" />
            
+           <remote name="mt"
+                   fetch="https://github.com/mi-thorium"/>
+           
 <remote  name="randomas"
            fetch="https://github.com/randomas3000" />
 
