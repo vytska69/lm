@@ -8,6 +8,9 @@
            <remote name="kt"
                    fetch="https://github.com/mi-sdm439" />
            
+           <remote name="los"
+                   fetch="https://github.com/LineageOS"/>
+           
            <remote name="mt"
                    fetch="https://github.com/mi-thorium"/>
            
@@ -22,9 +25,11 @@
 <remove-project name="hardware_qcom-caf_wlan"/>
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="kt" revision="lineage-19.1"/>
             <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio" remote="mt" revision="lineage-19.1-caf-msm8953" />
+           <remove-project name="packages_resources_devicesettings"/>
+           <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" revision="lineage-19.1" />
            
 <!-- Kernels -->
-  <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="kt" revision="a12/main"  clone-depth="1"/>
+  <project path="kernel/x        iaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="kt" revision="a12/main"  clone-depth="1"/>
 
 <!-- Device Trees -->
  <project path="device/xiaomi/Mi439" name="device_xiaomi_Mi439" remote="randomas" revision="12.1"/>
