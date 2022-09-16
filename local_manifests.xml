@@ -13,7 +13,7 @@
             fetch="https://github.com/mi-sdm439" />
     
     <!-- Device Trees -->
-    <project path="device/xiaomi/Mi439" name="device_xiaomi_Mi439" remote="evox439" revision="tiramisu" />
+    <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="evox439" revision="tiramisu" />
     <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="evox439" revision="tiramisu" />
  
     <!-- Kernels -->
