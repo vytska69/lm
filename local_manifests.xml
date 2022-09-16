@@ -27,7 +27,7 @@
     <remove-project name="ArrowOS/android_hardware_qcom_wlan"/>
     <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="kernel" revision="lineage-20.0-caf"/>
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
-    <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio" remote="audio" revision="lineage-19.1-caf-msm8953" />
+    <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio" remote="stuff" revision="lineage-19.1-caf-msm8953" />
     <remove-project name="LineageOS/android_hardware_qcom_display" />
     <project path="hardware/qcom-caf/msm8953/display" name="android_hardware_qcom_display" remote="hals" revision="lineage-19.1-caf-msm8953" />
     <remove-project name="vendor_evolution" />
