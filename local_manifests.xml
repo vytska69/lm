@@ -34,4 +34,8 @@
     <project path="vendor/evolution" name="vendor_evolution" remote="evox439" revision="tiramisu" />
     <remove-project name="system_core" />
     <project path="system/core" name="system_core" remote="evox439" revision="tiramisu" />
+    <remove-project name="android_vendor_qcom_opensource_fm-commonsys" />
+    <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="evox439" revision="lineage-19.1" />
+    <remove-project name="device_qcom_sepolicy-legacy-um" />
+    <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="evox439" revision="tiramisu" />
 </manifest>
