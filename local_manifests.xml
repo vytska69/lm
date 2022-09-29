@@ -3,10 +3,10 @@
 
     <!-- Remotes -->
     <remote name="hals"
-            fetch="https://github.com/lineageos" />
+            fetch="https://github.com/LineageOS" />
     
     <remote name="fm"
-            fetch="https://github.com/arrowos" />
+            fetch="https://github.com/ArrowOS" />
     <remote name="stuff" 
             fetch="https://github.com/mi-thorium" />
     
