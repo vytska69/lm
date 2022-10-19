@@ -25,7 +25,7 @@
            
     <!-- Replacement -->
     <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="stuff" revision="lineage-18.1" />
-    <remove-project name="crdroidandroid/android_hardware_qcom_wlan"/>
+    <remove-project name="LineageOS/android_hardware_qcom_wlan"/>
     <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="kernel" revision="lineage-20.0-caf"/>
     <project path="hardware/mithorium-4.9" name="android_hardware_mithorium-4.9" remote="audio" revision="lineage-19.1-caf-msm8953" />
   <project path="vendor/qcom/opensource/libfmjni"  name="android_vendor_qcom_opensource_libfmjni" remote="fm" revision="arrow-13.0" /> 
