@@ -14,5 +14,5 @@
     <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" remote="randomas" revision="tiramisu"  clone-depth="1" />
            
     <!-- Vendor Trees -->
-    <project path="vendor/xiaomi/vayu"  name="proprietary_vendor_xiaomi_vayu" remote="gitlab" revision="arrow-13.1" clone-depth="1" />
+    <project path="vendor/xiaomi/vayu"  name="ArrowOS-devices/proprietary_vendor_xiaomi_vayu" remote="gitlab" revision="arrow-13.1" clone-depth="1" />
 </manifest>
