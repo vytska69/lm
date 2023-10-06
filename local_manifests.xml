@@ -8,7 +8,7 @@
     <remote name="gitlab"
     fetch="https://gitlab.com/arrowos-project" />
     <!-- Device Trees -->
-    <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="randomas" revision="tiramisu" />
+    <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="randomas" revision="udc-evo" />
     
     <!-- Kernels -->
     <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" remote="randomas" revision="tiramisu"  clone-depth="1" />
