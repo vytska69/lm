@@ -5,14 +5,12 @@
     
     <remote name="randomas" 
         fetch="https://github.com/randomas3000" />   
-    <remote name="gitlab"
-    fetch="https://gitlab.com/arrowos-project" />
     <!-- Device Trees -->
-    <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="randomas" revision="tiramisu" />
+    <project path="device/xiaomi/vayu" name="device_xiaomi_vayu-udc" remote="randomas" revision="fourteen" />
     
     <!-- Kernels -->
-    <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" remote="randomas" revision="tiramisu"  clone-depth="1" />
+    <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu-udc" remote="randomas" revision="fourteen"  clone-depth="1" />
            
     <!-- Vendor Trees -->
-    <project path="vendor/xiaomi/vayu"  name="ArrowOS-devices/android_proprietary_xiaomi_vayu" remote="gitlab" revision="arrow-13.1" clone-depth="1" />
+    <project path="vendor/xiaomi/vayu"  name="vendor_xiaomi_vayu-udc" remote="randomas" revision="thirteen" clone-depth="1" />
 </manifest>
