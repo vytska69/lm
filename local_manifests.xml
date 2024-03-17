@@ -6,7 +6,7 @@
     <remote name="randomas" 
         fetch="https://github.com/randomas3000" />   
     <!-- Device Trees -->
-    <project path="device/xiaomi/vayu" name="device_xiaomi_vayu-udc" remote="randomas" revision="fourteen" />
+    <project path="device/xiaomi/vayu" name="device_xiaomi_vayu-udc" remote="randomas" revision="evox" />
     
     <!-- Kernels -->
     <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu-udc" remote="randomas" revision="fourteen"  clone-depth="1" />
