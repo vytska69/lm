@@ -5,11 +5,13 @@
     
     <remote name="randomas" 
         fetch="https://github.com/randomas3000" />   
+    <remote name="gxc"
+        fetch="https://github.com/gxc2356" />
     <!-- Device Trees -->
     <project path="device/xiaomi/vayu" name="device_xiaomi_vayu-udc" remote="randomas" revision="fourteen" />
     
     <!-- Kernels -->
-    <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu-udc" remote="randomas" revision="fourteen"  clone-depth="1" />
+    <project path="kernel/xiaomi/vayu" name="platform_kernel_xiaomi_vayu" remote="gxc" revision="KernelSU"  clone-depth="1" />
            
     <!-- Vendor Trees -->
     <project path="vendor/xiaomi/vayu"  name="vendor_xiaomi_vayu-udc" remote="randomas" revision="thirteen" clone-depth="1" />
